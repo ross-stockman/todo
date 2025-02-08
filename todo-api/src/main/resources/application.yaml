@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: todo-api
+
+  config:
+    import: "classpath:application-datasource.yaml"
+
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
+
+logging:
+  pattern:
+    console: "%d{yyyy-MM-dd HH:mm:ss} [%thread] %-5level %logger{36} - %X{requestId} - %msg%n"
+  level:
+    org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver: OFF
