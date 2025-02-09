@@ -1,0 +1,17 @@
+:root {
+    /*--primary-color: #007bff; !* Blue *!*/
+    /*--primary-color-shaded: #0056b3; !* Darker Shade of Blue *!*/
+    /*--primary-color: #ff9800; !* Orange *!*/
+    /*--primary-color-shaded: #e68900; !* Darker Shade of Orange *!*/
+    /*--primary-color: #f44336; !* Red *!*/
+    /*--primary-color-shaded: #d32f2f; !* Darker Shade of Red *!*/
+    /*--primary-color: #4caf50; !* Green *!*/
+    /*--primary-color-shaded: #388e3c; !* Darker Shade of Green *!*/
+    /*--primary-color: #9c27b0; !* Purple *!*/
+    /*--primary-color-shaded: #7b1fa2; !* Darker Shade of Purple *!*/
+    /*--primary-color: #ffc107; !* Yellow *!*/
+    /*--primary-color-shaded: #ffa000; !* Darker Shade of Yellow *!*/
+    --primary-color: #9e9e9e; /* Gray */
+    --primary-color-shaded: #757575; /* Darker Shade of Gray */
+
+}
