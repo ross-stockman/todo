@@ -1,5 +1,6 @@
 import { Todo } from '../../types/Todo.ts';
 import TodoTableRow from './TodoTableRow.tsx';
+import styles from './TodoTable.module.css';
 
 type TodoTableProps = {
   todos: Todo[];
@@ -7,13 +8,13 @@ type TodoTableProps = {
 
 function TodoTable({ todos }: TodoTableProps) {
   return (
-    <table>
+    <table className={styles.table}>
       <thead>
         <tr>
-          <th>ID</th>
-          <th>Version</th>
-          <th>Title</th>
-          <th>Description</th>
+          <th className={styles.th}>ID</th>
+          <th className={styles.th}>Version</th>
+          <th className={styles.th}>Title</th>
+          <th className={styles.th}>Description</th>
         </tr>
       </thead>
       <tbody>

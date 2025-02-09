@@ -8,8 +8,8 @@ import Button from './components/Button.tsx';
 
 function App() {
   const [todos, setTodos] = useState<Todo[]>([]);
-  const [error, setError] = useState<string | null>(null);
-  const [isModalOpen, setIsModalOpen] = useState(false);
+  const [error, setError] = useState<string | null>('test');
+  const [isModalOpen, setIsModalOpen] = useState(true);
 
   const handleError = (errorMessage: string) => {
     setError(errorMessage);

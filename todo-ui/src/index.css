@@ -1,6 +1,29 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+p {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+h1 {
+    margin-top: 1.7em;
+    margin-bottom: 1em;
+}
+h2 {
+    margin-top: 1.7em;
+    margin-bottom: 1em;
+}
+h3 {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
 :root {
-    /*--primary-color: #007bff; !* Blue *!*/
-    /*--primary-color-shaded: #0056b3; !* Darker Shade of Blue *!*/
+    --primary-color: #007bff; /* Blue */
+    --primary-color-shaded: #0056b3; /* Darker Shade of Blue */
     /*--primary-color: #ff9800; !* Orange *!*/
     /*--primary-color-shaded: #e68900; !* Darker Shade of Orange *!*/
     /*--primary-color: #f44336; !* Red *!*/
@@ -11,7 +34,12 @@
     /*--primary-color-shaded: #7b1fa2; !* Darker Shade of Purple *!*/
     /*--primary-color: #ffc107; !* Yellow *!*/
     /*--primary-color-shaded: #ffa000; !* Darker Shade of Yellow *!*/
-    --primary-color: #9e9e9e; /* Gray */
-    --primary-color-shaded: #757575; /* Darker Shade of Gray */
+    /*--primary-color: #9e9e9e; !* Gray *!*/
+    /*--primary-color-shaded: #757575; !* Darker Shade of Gray *!*/
+    /*--primary-color: #000000; !* Black *!*/
+    /*--primary-color-shaded: #333333; !* Darker Shade of Black (Dark Gray) *!*/
+    /*--primary-color: #795548; !* Brown *!*/
+    /*--primary-color-shaded: #5d4037; !* Darker Shade of Brown *!*/
+
 
 }

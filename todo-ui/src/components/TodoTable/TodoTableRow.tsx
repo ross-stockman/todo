@@ -1,4 +1,5 @@
 import { Todo } from '../../types/Todo.ts';
+import styles from './TodoTable.module.css';
 
 type TodoTableRowProps = {
   todo: Todo;
@@ -6,11 +7,13 @@ type TodoTableRowProps = {
 
 function TodoTableRow({ todo }: TodoTableRowProps) {
   return (
-    <tr key={todo.id}>
-      <td>{todo.id}</td>
-      <td>{todo.version}</td>
-      <td>{todo.title}</td>
-      <td>{todo.description}</td>
+    <tr className={styles.tr} key={todo.id}>
+      <td className={styles.td}>{todo.id}</td>
+      <td className={styles.td} style={{ textAlign: 'center' }}>
+        {todo.version}
+      </td>
+      <td className={styles.td}>{todo.title}</td>
+      <td className={styles.td}>{todo.description}</td>
     </tr>
   );
 }
